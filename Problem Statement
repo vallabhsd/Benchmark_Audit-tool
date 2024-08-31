@@ -1,0 +1,13 @@
+Current practises often involve manual checks. 
+To address these challenges, there is a critical need to develop automated auditing scripts tailored to CIS benchmarks. 
+Detailed description: This software solution aimed to list out the control guidelines as per CIS benchmark for the following operating systems: - 
+Windows (Reference www.cisecurity.org/benchmark/Microsoft_winodws_desktop) i. Windows 11 (Enterprise version) 
+ii. Windows 11 (Standalone version) Linux (Reference:www.cisecurity.org/benchmark/red_hat_linux, www.cisecurity.org/benchmark/ubuntu_linux) 
+i. Redhat Enterprise (8 and 9) ii. Ubuntu desktop (20.04 LTS, 22.04 LTS) 
+iii. Ubuntu server (12.04LTS and 14.04 LTS) Preferable scripting language (PowerShell for Windows, bash/python for Linux)
+
+
+
+A user-friendly GUI based solution with capability to generate a report of findings.
+Scripts should be reliable and accurate in identifying the deviations from best practices outlined in CIS benchmarks.
+Should facilitate easy update and maintenance to accommodate changes in benchmarks over time.
