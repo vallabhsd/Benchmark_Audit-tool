@@ -1,0 +1,29 @@
+
+Expected solution: 
+
+i. A user-friendly GUI based solution with capability to generate a report of findings.
+
+ii. Should be customizable as per organizational needs and scale to audit large and diverse IT environments effectively. 
+
+iii. Scripts should be reliable and accurate in identifying the deviations from 
+
+iv. best practices outlined in CIS benchmarks. 
+
+v. Should facilitate easy update and maintenance to accommodate changes in benchmarks over time.
+
+Languages : Bash and Powershell
+
+
+Key Steps
+
+Understand the CIS Benchmarks for Windows 11 and your Linux distribution (e.g. Debian, CentOS, Rocky Linux).
+
+Leverage CIS-CAT Pro to scan systems and identify conformance to benchmark recommendations.
+
+Automate hardening using CIS Build Kits with GPOs for Windows 11 and Bash scripts for Linux.
+
+(Optional) Create a custom auditing script in PowerShell for Windows 11 or Bash for Linux. This allows full customization but requires more development effort.
+
+Incorporate checks for all benchmark sections relevant to your OS, such as filesystem permissions, network settings, user accounts, etc.
+
+Output results in a format suitable for reporting, such as CSV, JSON or plain text
